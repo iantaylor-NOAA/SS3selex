@@ -1,39 +1,41 @@
-# History files
-.Rhistory
-.Rapp.history
-
-# Session Data files
-.RData
-
-# User-specific files
-.Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
+# Stock Synthesis output to ignore for now
+*.sso
+*.ss_new
+data_boot*
+data_expval*
+*.cor
+*.par
+# extra Stock Synthesis model files
+admodel.cov
+admodel.dep
+admodel.hes
+checkup.sso
+*.tmp
+console.output.txt
+covar.sso
+CumReport.sso
+derived_posteriors.sso
+echoinput.sso
+*.log
+gradient.*
+ParmTrace.sso
+plots*
+posterior_obj_func.sso
+posterior_vectors.sso
+posteriors.sso
+rebuild.sso
+runnumber.ss
+SIS_table.sso
+ss.b0*
+ss.bar
+ss.ecm
+ss.eva
+ss.exe
+ss.log
+ss.mc2
+ss.mcm
+ss.p0*
+ss.r0*
+ss.rep
+ss.std
+suggested_tuning.ss
