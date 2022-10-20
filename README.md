@@ -20,5 +20,5 @@ The example models and associated figures were from an experiment where
 6 age-based and 5 size-based selectivity functions were fit to the same
 data in order to compare the resulting shapes and the associated
 uncertainty as shown in the figures below.
-[Age-based fits with uncertainty](figs/selex_age_uncertainty.png)
-[Length-based fits with uncertainty](figs/selex_length_uncertainty.png)
+![Age-based fits with uncertainty](figs/selex_age_uncertainty.png)
+![Length-based fits with uncertainty](figs/selex_length_uncertainty.png)
